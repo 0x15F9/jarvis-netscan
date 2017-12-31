@@ -8,7 +8,7 @@ jv_ns_nmap_freescan (){
 }
 
 jv_ns_nmap_addressscan (){
-	lines="$(nmap $url -sP | tail -1)"
+	lines="$(nmap $1 -sP | tail -1)"
 	lines=${lines#*(}
 	lines=${lines%)*}
 	say $lines
