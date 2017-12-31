@@ -12,6 +12,11 @@ For multi-language plugin:
 ## Description
 A basic Network scanner for Jarvis.
 
+## Note
+This Plugin assumes that you ALREADY have nmap installed.
+If not, run
+> sudo apt-get install nmap
+
 ## Usage
 ```
 You: arp

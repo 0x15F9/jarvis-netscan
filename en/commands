@@ -1,1 +1,2 @@
-*ARP*==jv_ns_arp
+*SCAN*==jv_ns_nmap_freescan
+*NMAP (address)==mem=(1); jv_ns_nmap_addressscan
