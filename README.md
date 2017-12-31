@@ -13,14 +13,20 @@ For multi-language plugin:
 A basic Network scanner for Jarvis.
 
 ## Note
-This Plugin assumes that you ALREADY have nmap installed.
+1. This Plugin assumes that you ALREADY have nmap installed.
 If not, run
 > sudo apt-get install nmap
 
+2. The command scan returns the number of devices having address matching 192.168.100.* . To specify another address map use nmap followed by your intended address.
+
 ## Usage
 ```
-You: arp
-Jarvis: 5 devices detected by ARP
+You: scan
+Jarvis: 4 hosts up
+```
+```
+You: nmap 192.168.100.*
+Jarvis: 4 hosts up               
 ```
 
 ## Author
