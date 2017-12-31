@@ -17,9 +17,9 @@
 #} 
 
 jv_ns_nmap_freescan (){
-	lines="$(nmap 192.168.100.* -sP | tail -1)" | echo $lines | cut -d "(" -f2 | cut -d ")" -f1
+	lines="$(nmap 192.168.100.* -sP | tail -1)" | say $lines | cut -d "(" -f2 | cut -d ")" -f1
 }
 
 jv_ns_nmap_addressscan (){
-	lines="$(nmap $mem -sP | tail -1)" | echo $lines | cut -d "(" -f2 | cut -d ")" -f1
+	lines="$(nmap $url -sP | tail -1)" | say $lines | cut -d "(" -f2 | cut -d ")" -f1
 }
