@@ -15,3 +15,8 @@
 #        the_answer_is) echo "La réponse est $2";;
 #    esac
 #} 
+
+jv_ns_arp (){
+	lines=$(arp | wc -l) 
+	say echo "$(($lines - 1))"
+}

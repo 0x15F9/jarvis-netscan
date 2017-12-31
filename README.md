@@ -10,13 +10,13 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Description of your Plugin
+A basic Network scanner for Jarvis.
 
 ## Usage
 ```
-You: example of how to trigger the command
-Jarvis: output from Jarvis
+You: arp
+Jarvis: 5 devices detected by ARP
 ```
 
 ## Author
-[your name](http://your.website)
+IsfaaqG.
