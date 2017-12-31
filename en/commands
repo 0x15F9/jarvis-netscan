@@ -1,3 +1,2 @@
-*SCAN*==say "Scanning 192.168.100.*" && jv_ns_nmap_freescan
-*NMAP*==say "Which URL do you wish scan?"
->*==url && jv_ns_nmap_addscan
+*SCAN*==jv_ns_nmap_freescan
+*NMAP (*)*==url=(1); jv_ns_addressscan
