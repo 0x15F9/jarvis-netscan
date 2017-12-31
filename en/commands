@@ -1,2 +1,2 @@
 *SCAN*==jv_ns_nmap_freescan
-*NMAP (*)==say "Devices found: $(jv_ns_nmap_addressscan "(1)")"
+
