@@ -1,2 +1,2 @@
 *SCAN*==jv_ns_nmap_freescan
-*NMAP (*)*==url=(1); jv_ns_addressscan
+*NMAP (*)*==url=(1); jv_ns_nmap_addressscan
