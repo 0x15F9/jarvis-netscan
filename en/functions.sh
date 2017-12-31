@@ -11,5 +11,5 @@ jv_ns_nmap_addressscan (){
 	lines="$(nmap $1 -sP | tail -1)"
 	lines=${lines#*(}
 	lines=${lines%)*}
-	say "$lines devices detected"
+	echo "$lines devices detected"
 }
